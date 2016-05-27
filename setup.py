@@ -6,11 +6,13 @@ import platform
 
 if 'Darwin' in platform.system():
     install_requires = ["pyobjc-framework-Quartz==3.1.1"]
+else:
+    install_requires = []
 
 
 setup(
     name = 'screen-recording',
-    version = '0.0.1', 
+    version = '0.0.2', 
     description = 'screen recording',
     long_description = 'screen recording',
     packages = find_packages(),
