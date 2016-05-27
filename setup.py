@@ -9,7 +9,7 @@ if 'Darwin' in platform.system():
 
 
 setup(
-    name = 'python-desktop-recording',
+    name = 'screen-recording',
     version = '0.0.1', 
     description = 'screen recording',
     long_description = 'screen recording',
